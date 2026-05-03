@@ -8,7 +8,7 @@ class Mycountdown < Formula
   license "MIT"
   head "https://github.com/jaxvanyang/countdown.git", branch: "main"
 
-  depends_on "python@3.13"
+  depends_on "python"
 
   resource "linkify-it-py" do
     url "https://files.pythonhosted.org/packages/2a/ae/bb56c6828e4797ba5a4821eec7c43b8bf40f69cda4d4f5f8c8a2810ec96a/linkify-it-py-2.0.3.tar.gz"
